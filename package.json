@@ -1,0 +1,16 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "callback, promise, async",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async"
+  ],
+  "author": "Fabián Pacherres",
+  "license": "MIT"
+}
