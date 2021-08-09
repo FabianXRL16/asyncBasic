@@ -22,3 +22,19 @@ function printDate(dateNow){
 }
 
 date(printDate)
+
+
+function hello(name){
+    return `Hi, nice to meet you ${name}`
+}
+
+function sayGoodbye(name){
+    return `Bye, see you later ${name}`
+}
+
+function greet(name, callback){
+    console.log(callback(name))
+}
+
+greet("Fabián",hello);
+greet("Luciana", sayGoodbye);
