@@ -10,9 +10,8 @@ example1()
 
 const example2 = () => {
     return new Promise((resolve, reject) => {
-        const error = new Error("Bad :( !!!")
-        true ? resolve("Goods!!!")
-            : reject(error)
+        false ? resolve("Goods!!!")
+            : reject(new Error("Bad :( !!!"))
     })
 }
 
